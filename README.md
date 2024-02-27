@@ -16,6 +16,10 @@ ORM ir Object-Relational Mapping jeb objektu-reklašu attēlošana, kas ir tehno
     3. Platformas neatkarība: ORM bieži vien nodrošina platformas neatkarību, kas ļauj izstrādātājiem pārnest aplikācijas starp dažādām datubāzēm, nemainot lietotāja koda loģiku.
 
 - # Uzraksti Eloquent ORM pieprasījumu modelim User, kur nepieciešams iegūt visus lietotājus kuriem reitings ir lielāks par 4. Lietotāju tabulas struktūra
+- ![image](https://github.com/xdkanashi/API_Kobercova_DP3-1/assets/101179906/dd8650ab-224f-418f-91e7-f7df8a77680e)
+
 use App\Models\User;
 
 $lietotaji = User::where('reitings', '>', 4)->get();
+
+
